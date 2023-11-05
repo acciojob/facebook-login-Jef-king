@@ -1,38 +1,44 @@
-/*  your css code here. If applicable */
-body{
-	background-color:#f6f6f6;
+.body,body{
 	display:flex;
 	justify-content:center;
 	align-items:center;
+	width:100vw;
 	height:100vh;
+	background-color:#f6f6f6;
 }
-.left,.right{
+.left{
+	display:inline-block;
 	width:450px;
 	margin-top:70px;
-	display:inline-block;
+	
+	
 }
-
 form{
 	display:flex;
 	width:300px;
 	background-color:white;
 	padding:20px;
 	border-radius:5px;
-	box-shadow:0 0 10px #ccc;
+	box-shadow: 0 0 10px solid #ccc;
+	border-radius:5px;
 	flex-direction:column;
-	gap:10px;
+	padding:10px;
+	gap:20px;
 }
 input{
 	border:1px solid #ccc;
-	flex-direction:column;
-	gap:10px;
+	border-radius:5px;
+	padding:10px;
 }
 button{
-	background-color:#1877f2;
+	background-color:#1977f2;
 	border-radius:5px;
-	padding: 10px 20px;
+	padding:10px 20px;
 }
 a{
 	color:#1877f2;
 	text-decoration:none;
+}
+.signup{
+	background-color:#42b72a;
 }
