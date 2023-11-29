@@ -10,7 +10,7 @@ body{
 	margin-top:70px;
 	display:inline-block;
 }
-form{
+form,.right{
 	display:flex;
 	width:300px;
 	background-color:rgb(255, 255, 255);
