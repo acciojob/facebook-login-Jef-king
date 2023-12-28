@@ -10,13 +10,17 @@ body{
 	margin-top:70px;
 	display:inline-block;
 }
+.right{
+	display:block;
+	border-radius:5px;
+	box-shadow:0 0 10px #ccc;
+	padding:20px;
+}
 form{
 	display:flex;
 	width:300px;
 	background-color:white;
-	padding:20px;
-	border-radius:5px;
-	box-shadow:0 0 10px #ccc;
+	padding:0px;
 	flex-direction:column;
 	gap:10px;
 }
@@ -28,6 +32,4 @@ input{
 a{
 	text-decoration:none;
 	color:#1877f2;
-}
-.signup{
 }
