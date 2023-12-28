@@ -19,7 +19,7 @@ body{
 form{
 	display:flex;
 	width:300px;
-	background-color:white;
+	background-color:rgb(255,255,255);
 	padding:0px;
 	flex-direction:column;
 	gap:10px;
